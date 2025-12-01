@@ -1,0 +1,39 @@
+{
+  "name": "blockchain-whatsapp-gasless",
+  "version": "1.0.0",
+  "description": "Blockchain WhatsApp Clone with Gasless Transactions on Sepolia",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia",
+    "balance": "hardhat run scripts/checkBalance.js --network sepolia",
+    "relayer": "cd relayer && npm install && npm start",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start",
+    "clear": "rm -rf node_modules package-lock.json artifacts cache"
+  },
+  "keywords": [
+    "blockchain",
+    "whatsapp",
+    "gasless",
+    "meta-transactions",
+    "sepolia"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "@types/react": "19.2.7",
+    "hardhat": "^2.19.4",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "@biconomy/mexa": "^3.0.4",
+    "dotenv": "^16.3.1",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0"
+  }
+}
