@@ -77,6 +77,14 @@ app.get('/balance', async (req, res) => {
   });
 });
 
+/*
+const PORT = process.env.PORT || 4001;
+
+app.listen(PORT, () => {
+  console.log(`Relayer listening on http://localhost:${PORT}`);
+});
+
+*/
 const PORT = process.env.RELAYER_PORT || 4001;
 app.listen(PORT, () => {
   console.log(`🎯 Relayer listening on http://localhost:${PORT}`);
