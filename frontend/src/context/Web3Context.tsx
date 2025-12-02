@@ -173,7 +173,7 @@ export const Web3Provider: React.FC<{ children: React.ReactNode }> = ({ children
       const signature = await signer.signTypedData(domain, types, request);
 
       // Send to relayer service (DEVELOPER PAYS GAS)
-      const relayerUrl = process.env.NEXT_PUBLIC_RELAYER_URL || 'http://localhost:3001';
+      const relayerUrl = process.env.NEXT_PUBLIC_RELAYER_URL || 'http://localhost:4001';
       const response = await fetch(`${relayerUrl}/relay`, {
         method: 'POST',
         headers: {

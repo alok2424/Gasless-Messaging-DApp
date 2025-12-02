@@ -1,11 +1,11 @@
 {
   "network": "sepolia",
   "chainId": "11155111",
-  "deployer": "0xb2c822A8f05Ed6d0aD8C62aaa952Cc8249733DB4",
+  "deployer": "0xcDC9cBBB43C7057bEe1daD9E1fe50384a5016aF4",
   "contracts": {
-    "MinimalForwarder": "0xBda4DBF8ba1fCE7B4EA7D92D2BeFB034Bf9f80fD",
-    "BlockchainWhatsApp": "0x63B41498AE992deF9aA2f84aE73bc5Bf251C2A34"
+    "MinimalForwarder": "0x30057Ef07598D6A8521e5D2cD84C25429e1C3396",
+    "BlockchainWhatsApp": "0xc35D4eE2535FF7357c65f7704261018afC7F879F"
   },
-  "timestamp": "2025-11-17T04:42:02.053Z",
-  "blockNumber": 9646265
+  "timestamp": "2025-12-02T11:11:12.393Z",
+  "blockNumber": 9752521
 }

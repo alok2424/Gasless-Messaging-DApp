@@ -77,7 +77,7 @@ app.get('/balance', async (req, res) => {
   });
 });
 
-const PORT = process.env.RELAYER_PORT || 3001;
+const PORT = process.env.RELAYER_PORT || 4001;
 app.listen(PORT, () => {
   console.log(`🎯 Relayer listening on http://localhost:${PORT}`);
   console.log(`📡 Frontend should send signed transactions to /relay endpoint\n`);
